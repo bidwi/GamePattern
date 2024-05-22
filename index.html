@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Game Pattern</title>
+     <link rel="icon" href="assets/image/logo.png">
+     <link rel="stylesheet" href="assets/styles/style.css">
+
+     <!-- font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Press+Start+2P&display=swap"
+          rel="stylesheet">
+     <!-- font -->
+
+     <!-- Logo -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- Logo -->
+
+     <!-- Javascript -->
+     <script src="assets/script/script.js"></script>
+     <!-- Javascript -->
+
+
+</head>
+
+<body>
+
+     <!-- Header -->
+     <header class="navbar-container">
+          <nav class="nav-list">
+               <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#judul-panduan">Panduan</a></li>
+                    <li><a href="#qna">QNA</a></li>
+                    <li><a href="#progress">Progress</a></li>
+               </ul>
+          </nav>
+
+          <div class="logo">
+               <img src="assets/image/logo.png" alt="Game Pattern" />
+          </div>
+     </header>
+     <!-- Header -->
+
+
+     <!-- Main -->
+     <main>
+          <div class="content-image">
+               <img src="assets/image/landing-page-logo.png" alt="Game Pattern Logo" />
+          </div>
+
+          <div class="content">
+               <div class="content-description">
+                    <h1 class="title">Level Sulit? Kami Akan Bantu!</h1>
+                    <p>
+                         Kami menyediakan sebuah website khusus untuk para gamers yang kesulitan menyelesaikan level,
+                         kesusahan mencari hidden items, tidak mampu menemukan easter eggs, dan kesulitan lainnya.
+                         Selain Panduan, kamu juga bisa mengetahui informasi tentang video games yang sedangkamu
+                         mainkan. Setelah
+                         kamu mendapatkan kemudahan atas bantuan yang disediakan, kamu bisa berkompetisi dengan gamers
+                         lain untuk mendapatkan penghargaan.
+                    </p>
+               </div>
+          </div>
+
+          <div class="panduan">
+               <h1 id="judul-panduan">Panduan <br> Video Games</h1>
+               <div class="panduan-card">
+                    <article>
+                         <div class="noita">
+                              <img src="assets/image/hiisi.jpeg" alt="noita" />
+                              <h1>noita <br> Level: <span>Hiisi Base</span> </h1>
+                              <p>
+                                   Disarankan untuk menggunakan spell yang dapat memberikan kerusakan area atau
+                                   proyektil
+                                   yang
+                                   kuat, seperti "Giant Firebolt" atau "Homing Shots". Saat menjelajahi base,
+                                   prioritaskan untuk membunuh Hiisi Gunner dan Hiisi Grenadier terlebih dahulu, karena
+                                   mereka memiliki
+                                   damage yang lebih tinggi daripada musuh lainnya...
+                                   <br><button class="selengkapnya">Lanjut Baca</button>
+                              </p>
+                         </div>
+                    </article>
+
+                    <aside>
+                         <p>Profile <br> Achivement </p>
+
+                         <div class="container-panduan">
+                              <img src="assets/image/foto.jpg" id="foto-profil" alt="profil">
+                              <br>
+                              <h2>Billy: 57% </h2>
+                         </div>
+                    </aside>
+               </div>
+          </div>
+
+
+
+          <div id="qna">
+               <h1>QNA</h1>
+               <div class="pertanyaan">
+                    <div id="cari">
+                         <input type="text" placeholder="Cari Pertanyaan" id="search">
+                         <button class="tombol-cari"><i class="fas fa-search"></i> </button>
+                    </div>
+                    <article>
+                         <h2> Bagaimana cara mendapatkan easter egg bulan di Grand Theft Auto: San
+                              Andreas? </h2>
+                         <button class="lihat-jawaban" onclick="showHiddenText('pertanyaan-1')">Lihat Jawaban</button>
+                         <p id="pertanyaan-1"></p>
+                    </article>
+
+                    <article>
+                         <h2> Di mana tempat saya bisa mencari goa minecraft di Borderlands 2?</h2>
+                         <button class="lihat-jawaban" onclick="showHiddenText('pertanyaan-2')">Lihat Jawaban</button>
+                         <p id="pertanyaan-2"></p>
+                    </article>
+               </div>
+          </div>
+
+          <div id="progress">
+               <h1>Progress Games Kamu</h1>
+               <ul>
+                    <li>Grand Theft Auto : San Andreas &nbsp;&nbsp;|&nbsp;&nbsp; <span> (17%) Wrong Side of the Tracks
+                         </span></li>
+                    <li>Borderlands 2 &nbsp;&nbsp;|&nbsp;&nbsp;23% (Tiny Tina's Assault on Dragon Keep)</li>
+                    <li>Noita &nbsp;&nbsp;|&nbsp;&nbsp; 57% (Hiisi Base)</li>
+                    <li>Slay the Spire &nbsp;&nbsp;|&nbsp;&nbsp; 95% (Ascension 19)</li>
+               </ul>
+          </div>
+     </main>
+     <!-- Main -->
+
+     <!-- Footer -->
+     <footer>
+          <h3>Ayo Kunjungi Media Sosial Kami</h3>
+          <nav class="social-media">
+               <ul>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+               </ul>
+          </nav>
+          <p>Copyright &#169; 2024 Billy Dwi prakoso</p>
+     </footer>
+     <!-- Footer -->
+</body>
+
+</html>

@@ -1,0 +1,417 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 690px) {
+  header.navbar-container .logo img {
+    visibility: hidden;
+  }
+
+  header.navbar-container .nav-list ul {
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    width: 99rem;
+    margin-left: 6.5rem;
+    font-size: 0.1rem;
+    font-size: 0px;
+  }
+
+  header.navbar-container .nav-list ul li a{
+  font-size: 1.8vw;
+  }
+
+
+  main {
+   margin-top: 4rem;
+  }
+
+  main img {
+    max-width: 70%;
+  }
+
+  .panduan-card {
+    flex-direction: column;
+    margin-right: -3rem;
+    font-size: 3vw;
+  }
+
+ aside {
+    margin-top: 1rem;
+    width: 50vw;
+    margin-left: 1rem;
+}
+
+#foto-profil {
+  max-width: 60%;
+}
+
+#judul-panduan {
+  font-size: 6vw;
+}
+
+.panduan-card img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  border-radius: 5%;
+    box-shadow: 6px 6px #2D9596;
+}
+
+.selengkapnya {
+  max-width: 60%;
+  font-size: 0.1vw;
+}
+
+#qna {
+  font-size: 3vw;
+}
+
+
+.lihat-jawaban {
+  font-size: 3vw;
+}
+
+#search {
+  font-size: 3vw;
+  width: 40vw;
+}
+
+
+#cari {
+max-width: 50%;
+}
+
+#progress h1 {
+  font-size: 2.6vw;
+}
+
+#progress ul  {
+  font-size: 3vw;
+  margin-left: -5vw;
+  padding-right: 10vw;
+  padding-left: -10vw;
+}
+
+}
+
+body {
+     background-color: #265073;
+     color: #ECF4D6;
+     font-family: Silkscreen;
+     height: 100vh;
+     margin: 0;
+     display: flex;
+     flex-direction: column;
+}
+
+header.navbar-container {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  max-width: 2000px;
+  padding-block: 0.8rem;
+  margin-inline: auto;
+  box-shadow: 2px 2px  #ECF4D6;
+
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ background-color: #265073;
+  z-index: 9999;
+  max-width: none;
+}
+
+header.navbar-container .logo img {
+     width: 6rem;
+   }
+    
+   header.navbar-container .nav-list ul {
+     padding-left: 0;
+    
+     display: flex;
+     justify-content: center;
+     gap: 2rem 1rem;
+   }
+    
+   header.navbar-container .nav-list li {
+     list-style-type: none;
+     
+   }
+    
+   header.navbar-container .nav-list li a {
+     padding: 0.4rem 1.5rem;
+     text-decoration: none;
+     font-size: 1.05rem;
+     color: #ECF4D6;
+     border-radius: 9px;
+    
+     transition: all 0.2s ease-in-out;
+   }
+    
+   header.navbar-container .nav-list li:hover a {
+     background-color: #ECF4D6;
+     color: #265073;
+   }
+
+  
+
+   /* main */
+
+   main {
+    padding-top: 5rem;
+    background-color: #ECF4D6;
+    color: #265073;
+    text-align: center;
+    font-size: 0.9rem;
+    padding-top: 7rem;
+   }
+
+   .content {
+    padding: 4rem;
+   }
+
+   .title {
+    margin-top: -5rem;
+   }
+
+   .content-image img{
+    width: 30rem;
+   }
+
+   .panduan {
+    background-color: #265073;
+    color:#ECF4D6;
+    padding: 3rem;
+    text-align: left;
+   }
+
+   .panduan-card {
+    display: flex; 
+   }
+
+   .panduan-card img {
+    max-width: 17rem;
+    border-radius: 5%;
+    box-shadow: 6px 6px  #2D9596;
+   }
+
+   #judul-panduan  {
+    padding-left: 1rem;
+   }
+
+   .panduan-card article {
+    background-color: #9AD0C2;
+    color: #265073;
+    border-radius: 1rem;
+    outline:10rem #ECF4D6;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 5rem;
+    padding-bottom: -14rem;
+    box-shadow: 8px 8px  #ECF4D6;
+   }
+
+aside {
+  justify-content: center;
+  flex: 1;
+  margin-top: 3rem;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+  text-align: center;
+  
+}
+
+#foto-profil {
+  width: 5rem;
+  margin-bottom: -0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 10%;
+  box-shadow: 4px 3px;
+}
+
+
+aside p {
+  color: #ECF4D6;
+  
+}
+
+.container-panduan {
+  background-color: #9AD0C2;
+  padding: 0.5rem 1.5rem;
+  color: #265073;
+  border-radius: 15px;
+  box-shadow: 4px 4px  #ECF4D6;
+  font-family: Silkscreen;
+  
+}
+  
+.container-panduan p {
+  color: #265073;
+  
+}
+
+.selengkapnya {
+  font-family: Silkscreen;
+  font-size: 0.7rem;
+  margin-top: 1rem;
+  background-color: #265073;
+  color: #ECF4D6;
+  border-radius: 0.5rem;
+  padding: 0.1rem 0.6rem;
+}
+
+.selengkapnya:hover {
+  background-color: #ECF4D6;
+  color: #265073;
+  transition: all 0.2s ease-in-out;
+}
+
+#qna {
+  padding: 3rem;
+  margin-top: 1.3rem;
+}
+
+
+#qna h1 {
+  background-color: #9AD0C2;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0.4vw 0.4vw #265073;
+}
+
+#cari {
+  display: flex;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+}
+
+.tombol-cari {
+background-color: #9AD0C2;
+flex: 1;
+margin-right: 100rem;
+margin-left: 6rem;
+margin-top: 3px;
+border-radius: 0.3rem;
+padding: 7px 8px;
+box-shadow: 2px 2px #265073;
+}
+
+.fas {
+  color: #265073;
+}
+
+.tombol-cari:hover {
+  background-color: #ECF4D6;
+  transition: all 0.2s ease-in-out;
+}
+
+#search {
+  font-family: Silkscreen;
+  border-radius: 0.4rem;
+  margin-right: -5rem;
+  display: flex;
+  justify-content: left;
+  margin-left: 0.7rem;
+  padding: 0.2rem 0.5rem;
+  color: #265073;
+  box-shadow: 3px 3px #265073;
+  cursor: pointer;
+}
+
+#search::placeholder {
+color: #265073;
+opacity: 70%;
+}
+
+
+#qna article {
+  text-align: start;
+  margin-top: 1rem;
+  background-color: #9AD0C2;
+  padding: 1.2rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px #265073;
+}
+
+.pertanyaan h2 {
+  font-family: "Play", sans-serif;
+  font-weight: bolder;
+}
+
+.lihat-jawaban {
+  font-family: Silkscreen;
+  background-color: #ECF4D6;
+  color: #265073;
+  box-shadow: 3px 3px #265073;
+  border-radius: 0.4rem;
+}
+
+.lihat-jawaban:hover {
+  background-color: #265073;
+  color: #ECF4D6;
+  transition: all 0.2s ease-in-out;
+}
+
+#progress {
+  background-color: #265073;
+  color: #ECF4D6;
+  margin: 3rem;
+  padding: 1.7rem;
+  border-radius: 2rem;
+  box-shadow: 0.5rem 0.5rem #9AD0C2;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+ }
+
+ #progress ul li {
+  list-style-type: none;
+  margin: 1rem 0.1rem;
+  text-align: start;
+  text-decoration: none;
+ }
+
+ #progress h1 {
+  margin-bottom: 3rem;
+  background-color: #9AD0C2;
+  color: #265073;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  border-radius: 1rem;
+  box-shadow: 5px 5px #ECF4D6;
+ }
+
+
+
+   /* footer */
+footer {
+  text-align: center;
+  background-color: #265073;
+  color: #ECF4D6;
+  padding: 1.5rem;
+}
+
+   footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 3.2rem;
+    gap: 1.5rem;
+}
+
+footer a {
+  font-size: 1.8rem;
+  color: #ECF4D6;
+  
+}
+
+footer p {
+  padding-top: 1rem;
+}
